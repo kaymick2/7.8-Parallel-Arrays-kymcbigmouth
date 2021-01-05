@@ -64,6 +64,7 @@ class Main {
     System.out.println("We'd have you enter your credit card info, but our programmers suck and broke too many things  while attempting to implement it, so we just removed it and executed them.");
     wait(1000);
     System.out.println("Thank you for shopping on TaoBao!");
+    userInput.close();
   }
 
   // add calls for wait method
