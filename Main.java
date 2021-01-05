@@ -29,8 +29,8 @@ class Main {
       quantity[j] = itemQuantity;
       // add confirmation output to user
     }
-    System.out.println("Now I'm going to calculate the total prices.");
-    System.out.println("Now calculating...");
+ 
+    System.out.println("Now calculating totals...");
     wait(1000);
     System.out.println("Loading com.miui.calculator...");
     wait(500);
@@ -61,25 +61,8 @@ class Main {
     }
     System.out.println("Your grand total is $" + sum);
     wait(500);
-    do{
-    System.out.println("Please enter your credit card number:");
-    String cardNumber = userInput.next();
-    System.out.println("You have entered " + cardNumber + ". Is this correct?");
-    String nextEntry = userInput.next();
-  }while(nextEntry!=y||nextEntry!=yes);
-      do{
-      System.out.println("What is the expiration date? Enter as mm/yy:");
-      String cardExp = userInput.next();
-      System.out.println("You have entered " + cardExp + ". Is this correct?");
-    String nextEntry = userInput.next();
-  }while(nextEntry!=y||nextEntry!=yes);
-      do{
-    System.out.println("Lastly, enter the three-digit security code on the back of your card: ");
-    String cardCVV = userInput.next();
-    System.out.println("You have entered " + cardCVV + ". Is this correct?");
-    String nextEntry = userInput.next();
-  }while(nextEntry!=y||nextEntry!=yes);
-
+    System.out.println("We'd have you enter your credit card info, but our programmers suck and broke too many things  while attempting to implement it, so we just removed it and executed them.");
+    wait(1000);
     System.out.println("Thank you for shopping on TaoBao!");
   }
 
